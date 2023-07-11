@@ -1,0 +1,7 @@
+.colorIcon{
+    color: white;
+}
+
+.custom-datepicker .datepicker-text {
+    color: red !important; /* Replace "red" with the desired text color */
+  }
