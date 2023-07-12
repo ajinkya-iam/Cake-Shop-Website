@@ -1,7 +1,49 @@
-.colorIcon{
+.ant-picker .ant-picker-input > input::placeholder{
+    color:  rgb(209 213 219);
+}
+
+.ant-picker .ant-picker-input > input{
     color: white;
 }
 
-.custom-datepicker .datepicker-text {
-    color: red !important; /* Replace "red" with the desired text color */
-  }
+.ant-picker .ant-picker-suffix{
+    color: white;
+}
+
+.ant-btn-primary{
+    background-color: #FFCC66;
+}
+
+.ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer) .ant-select-selector{
+    background-color: transparent;
+    color: white;
+    border-bottom-color: white;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-radius: 0%;
+}
+
+.ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer)::placeholder .ant-select-selector {
+    background-color: transparent;
+    color: white;
+    border-bottom-color: white;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-radius: 0%;
+}
+
+.ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer):hover .ant-select-selector {
+    background-color: transparent;
+    color: white;
+    border-bottom-color: white;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-radius: 0%;
+}
+
+.ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+    color: white;
+}

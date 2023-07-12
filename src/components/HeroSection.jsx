@@ -4,7 +4,7 @@ import { hero_data } from "../assets/Data";
 
 const HeroSection = () => {
     return (
-        <div className="md:ml-[19%] bg-black h-full">
+        <div className="md:ml-[19%] md:mt-0 mt-14 bg-black h-full">
             <img src={banner_1} className="md:object-contain object-center rounded-md p-4" />
             <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 md:gap-8 sm:gap-4 gap-2 m-4 bg-black">
                 {hero_data.map((item) => (

@@ -8,8 +8,8 @@ const BestSellingFlavour = () => {
     return (
         <div className="md:ml-[19%] p-4 flex flex-col justify-center">
             <div className="flex flex-col mt-[100px] items-center justify-center">
-                <h1 className="text-white text-2xl font-sans font-medium">
-                    <span className="text-4xl font-semibold font-sans">
+                <h1 className="text-white text-2xl text-center font-sans font-medium">
+                    <span className="text-4xl font-semibold text-center font-sans">
                         BEST SELLING FLAVOURS
                     </span>
                 </h1>
