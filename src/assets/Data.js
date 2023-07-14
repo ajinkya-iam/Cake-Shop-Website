@@ -1,20 +1,20 @@
 
 export const hero_data = [
     {
-        image : require('../images/img_1.png'),
-        title : "1/2 Kg"
+        image : require('../images/half_kg_cake.png'),
+        title : "1/2 Kg Cakes"
     },
     {
-        image : require('../images/img_2.png'),
-        title : "1 Kg"
+        image : require('../images/one_kg_cake.png'),
+        title : "1 Kg Cakes"
     },
     {
-        image : require('../images/img_3.png'),
+        image : require('../images/custom.png'),
+        title : "Custom Cakes"
+    },
+    {
+        image : require('../images/pastries.png'),
         title : "Pastries"
-    },
-    {
-        image : require('../images/img_4.png'),
-        title : "Custom"
     },
 ] 
 

@@ -171,7 +171,7 @@ const BookSection = () => {
                     />
                 </div>
 
-                <div className="flex justify-center">
+                <div className="flex justify-center mb-16">
                     <button className="border-2 rounded-md border-[#FFCC66] text-white md:w-[340px] w-[250px] py-3 mt-10 uppercase text-sm font-medium hover:bg-white hover:text-black">
                         Order Now
                     </button>
