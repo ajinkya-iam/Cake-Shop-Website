@@ -23,7 +23,7 @@ const CakeSection = () => {
 
             <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-24 mt-[80px]">
                 {half_kg_cake_data.map((item) => (
-                    <div className="flex flex-col justify-center items-center">
+                    <div className="flex flex-col justify-center items-center hover:bg-neutral-900 hover:rounded-md py-2 cursor-pointer">
                         <img
                             src={item.image}
                             alt=""
@@ -57,7 +57,7 @@ const CakeSection = () => {
 
             <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-24 mt-[80px]">
                 {half_kg_cake_data.map((item) => (
-                    <div className="flex flex-col justify-center items-center">
+                    <div className="flex flex-col justify-center items-center hover:bg-neutral-900 hover:rounded-md py-2 cursor-pointer">
                         <img
                             src={item.image}
                             alt=""

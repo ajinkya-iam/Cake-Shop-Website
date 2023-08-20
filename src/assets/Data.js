@@ -46,48 +46,48 @@ export const pastries_data = [
         cake_name : "Super-delicious zuppa toscana",
         price : "$40",
         ingredients : "milk/chocolate/orange/berry",
-        image : require("../images/cake_1.png")
+        image : require("../images/pastries_1.png")
     },
     {
         cake_name : "Super-delicious zuppa toscana",
         price : "$40",
         ingredients : "milk/chocolate/orange/berry",
-        image : require("../images/cake_2.png")
+        image : require("../images/pastries_2.png")
     },
     {
         cake_name : "Super-delicious zuppa toscana",
         price : "$40",
         ingredients : "milk/chocolate/orange/berry",
-        image : require("../images/cake_3.png")
+        image : require("../images/pastries_3.png")
     },
     {
         cake_name : "Super-delicious zuppa toscana",
         price : "$40",
         ingredients : "milk/chocolate/orange/berry",
-        image : require("../images/cake_4.png")
+        image : require("../images/pastries_4.png")
     },
     {
         cake_name : "Super-delicious zuppa toscana",
         price : "$40",
         ingredients : "milk/chocolate/orange/berry",
-        image : require("../images/cake_4.png")
+        image : require("../images/pastries_5.png")
     },
     {
         cake_name : "Super-delicious zuppa toscana",
         price : "$40",
         ingredients : "milk/chocolate/orange/berry",
-        image : require("../images/cake_3.png")
+        image : require("../images/pastries_6.png")
     },
     {
         cake_name : "Super-delicious zuppa toscana",
         price : "$40",
         ingredients : "milk/chocolate/orange/berry",
-        image : require("../images/cake_2.png")
+        image : require("../images/pastries_7.png")
     },
     {
         cake_name : "Super-delicious zuppa toscana",
         price : "$40",
         ingredients : "milk/chocolate/orange/berry",
-        image : require("../images/cake_1.png")
+        image : require("../images/pastries_8.png")
     },
 ]

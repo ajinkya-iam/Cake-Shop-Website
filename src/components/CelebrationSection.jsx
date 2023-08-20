@@ -40,12 +40,12 @@ const CelebrationSection = () => {
                     />
                     <img
                         src={celebration_4}
-                        className="h-full w-full col-start-1 object-fill"
+                        className="h-full w-full col-start-1 object-cover"
                         alt=""
                     />
                     <img
                         src={celebration_5}
-                        className="h-full w-full object-fill"
+                        className="h-full w-full object-cover"
                         alt=""
                     />
                     <img

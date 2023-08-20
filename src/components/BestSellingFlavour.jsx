@@ -22,7 +22,7 @@ const BestSellingFlavour = () => {
                 <div className="grid md:grid-cols-3 grid-cols-1 gap-8 p-10">
                     <img
                         src={selling_1}
-                        className="h-[450px] w-[300px] object-contain"
+                        className="h-[450px] w-[300px] object-contain hover:saturate-150 transition delay-150 duration-300 ease-in-out"
                         alt=""
                     />
                     <img

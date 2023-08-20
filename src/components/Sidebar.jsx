@@ -16,14 +16,15 @@ import BestSellingFlavour from "./BestSellingFlavour";
 import BookSection from "./BookSection";
 import OfferSection from "./OfferSection";
 import BookBanner from "./BookBanner";
+import ThankYouSection from "./ThankYouSection";
 
 const Sidebar = () => {
     const [nav, setNav] = useState(true);
     const [activeMenu, setActiveMenu] = useState("");
 
-    function handleNav(){
+    function handleNav() {
         setNav(!nav);
-    };
+    }
 
     const handleMenuItemClick = (menu) => {
         setActiveMenu(menu);
@@ -103,7 +104,10 @@ const Sidebar = () => {
                     </li>
                 </ul>
 
-                <button className="border-2 rounded-md border-[#FFCC66] text-white w-[140px] py-1 mt-10 uppercase text-sm font-medium hover:bg-white hover:text-black">
+                <button
+                    onClick={() => handleMenuItemClick("order")}
+                    className="border-2 rounded-md border-[#FFCC66] text-white w-[140px] py-1 mt-10 uppercase text-sm font-medium hover:bg-white hover:text-black"
+                >
                     Book a Cake
                 </button>
 
@@ -133,16 +137,17 @@ const Sidebar = () => {
                 </div>
             </div>
 
-            <div className="block w-full h-14 bg-neutral-950 fixed z-50 px-6 md:hidden">
-                <div className="flex justify-between items-center h-full">
+            {nav && <div className="block w-full h-14 bg-neutral-950 fixed z-50 px-6 md:hidden">
+                <div className="flex justify-start gap-6 items-center h-full">
                     <img
                         src={menu}
                         onClick={handleNav}
                         className="w-7 object-contain"
                         alt=""
                     />
+                    <p className="text-white text-lg font-serif italic font-bold">Color Cube</p>
                 </div>
-            </div>
+            </div>}
             <div
                 className={
                     !nav
@@ -274,9 +279,7 @@ const Sidebar = () => {
                 <div ref={orderRef}>
                     <BookSection />
                 </div>
-                <div ref={reachUsRef}>
-                    {/* <BestSellingFlavour /> */}
-                </div>
+                <div ref={reachUsRef}><ThankYouSection /></div>
             </div>
         </div>
     );

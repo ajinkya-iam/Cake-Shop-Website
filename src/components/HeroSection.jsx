@@ -8,7 +8,7 @@ const HeroSection = () => {
             <img src={banner_1} className="md:object-contain object-center rounded-md p-4" />
             <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 md:gap-8 sm:gap-4 gap-2 m-4 bg-black">
                 {hero_data.map((item) => (
-                    <div className="flex w-full px-10 border-2 border-[#FFCC66] rounded-md py-2 items-center justify-between">
+                    <div className="flex w-full px-10 border-2 border-[#FFCC66] rounded-md py-2 items-center justify-center space-x-4">
                         <img className="object-contain w-[43px] h-[43px]" src={item.image} />
                         <p className="font-sans text-white text-xl">{item.title}</p>
                     </div>

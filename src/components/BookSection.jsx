@@ -123,16 +123,16 @@ const BookSection = () => {
                         }
                         options={[
                             {
-                                value: "jack",
-                                label: "Jack",
+                                value: "Chocolate Cake",
+                                label: "Chocolate Cake",
                             },
                             {
-                                value: "lucy",
-                                label: "Lucy",
+                                value: "Black Forest",
+                                label: "Black Forest",
                             },
                             {
-                                value: "tom",
-                                label: "Tom",
+                                value: "Strawberry Cake",
+                                label: "Strawberry Cake",
                             },
                         ]}
                     />

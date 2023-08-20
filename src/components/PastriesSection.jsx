@@ -20,10 +20,10 @@ const PastriesSection = () => {
 
             <div className="grid md:grid-cols-2 grid-cols-1 mt-16 gap-10 mx-auto">
                 {pastries_data.map((item) => (
-                    <div className="flex w-full justify-around items-center mx-auto">
+                    <div className="flex w-full justify-around items-center mx-auto hover:bg-neutral-900 hover:rounded-md p-2 cursor-pointer">
                         <img
                             src={item.image}
-                            className="w-[80px] h-[80px] rounded-full"
+                            className="w-[60px] h-[80px]"
                             alt=""
                         />
                         <div className="ml-4 space-y-2">
