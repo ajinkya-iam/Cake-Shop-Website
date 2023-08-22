@@ -56,7 +56,7 @@ const Sidebar = () => {
 
     return (
         <div className="bg-black h-full flex">
-            <div className="hidden md:fixed md:flex flex-col items-center border-2 border-[#FFCC66] rounded-md m-4 w-[17%] p-3 bg-black">
+            <div className="hidden md:fixed md:flex flex-col items-center border-2 border-[#FFCC66] rounded-md m-4 w-[17%] h-screen mb-10 p-3 bg-black">
                 <img
                     className="w-full h-[41px] object-contain mt-4"
                     src={pure_veg}
@@ -155,7 +155,7 @@ const Sidebar = () => {
                         : "fixed left-[-100%]"
                 }
             >
-                <div className="flex flex-col items-center border-2 border-[#FFCC66] rounded-md m-4 p-3 bg-black">
+                <div className="flex flex-col w-full items-center border-2 border-[#FFCC66] rounded-md m-4 p-3 bg-black">
                     <img
                         className="w-full h-[41px] object-contain mt-4"
                         src={pure_veg}
@@ -250,16 +250,9 @@ const Sidebar = () => {
                         </ul>
                     </div>
                 </div>
-
-                {/* <img
-                        className="w-7 object-contain ease-in-out m-5 duration-500"
-                        onClick={handleNav}
-                        src={close}
-                        alt=""
-                    /> */}
             </div>
-
-            <div className="content-container">
+        
+            <div onClick={handleNav} className="content-container">
                 {/* Render the active menu component */}
                 <div ref={homeRef}>
                     <HeroSection />
